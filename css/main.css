@@ -9,24 +9,27 @@ body {
 /* Navbar */
 
 .site-navbar {
-    background: #2e373c;
+    background: #fff;
     min-height: 50px;
     padding: 20px 0;
     border: 0;
 }
 .site-navbar a {
-    color: #fff;
+    color: #1b93c7;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .site-navbar .current {
     background: #1b93c7;
+    color: #fff;
 }
 .site-navbar li a.current:hover {
     background: #1b93c7;
 }
 .site-navbar li a:hover {
     background: #1b93c7;
+    color: #fff;
 }
 .site-navbar li a:focus {
     background: #1b93c7;
@@ -79,12 +82,12 @@ background: rgba(27, 147, 199, 0.8)
 }
 /* about */
 
-#home, #about, #services, #portfolio, #team, #blog, #contact {
+#home, #about, #services, #price, #team, #blog, #contact {
     padding-top: 60px;
     padding-bottom: 80px;
 }
 
-#fortax h3, #home h3, #about h3, #services h3, #portfolio h3, #team h3, #blog h3, #contact h3 {
+#fortax h3, #home h3, #about h3, #services h3, #price h3, #team h3, #blog h3, #contact h3 {
     font-size: 4em;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -130,28 +133,35 @@ background: rgba(27, 147, 199, 0.8)
     margin-top: 10px;
     color: #666;
 }
+
 .icon-about a i.fa-weibo:hover {
     color: #d52b2b;
 }
+
 .icon-about a i.fa-facebook-square:hover {
     color: #3c599f;
 }
+
 .icon-about a i.fa-twitter-square:hover {
     color: #5eaade;
 }
+
 .icon-about a i.fa-google-plus-square:hover {
     color: #da4735;
 }
+
 .icon-about a i.fa-pinterest-square:hover {
     color: #ca2128;
 }
+
 .icon-about a i.fa-linkedin:hover {
     color: #017eb4;
 }
+
 /* Services */
 
 #services {
-    background: #bf544e;
+    background: #273035;
     color: #fff;
 }
 #services h3 {
@@ -188,25 +198,25 @@ background: rgba(27, 147, 199, 0.8)
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-/* portfolio */
+/* price */
 
-#portfolio {
+#price {
     background: #273035;
     color: #fff;
 }
-#portfolio img {
+#price img {
     width: 100%;
     margin-bottom: 20px;
     height: auto;
 }
-#portfolio h4 {
+#price h4 {
     font-size: 1.6em;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
 }
-#portfolio span {
+#price span {
     background: #1b93c7;
     border-radius: 50px;
     padding: 25px 13px;
@@ -222,14 +232,14 @@ background: rgba(27, 147, 199, 0.8)
     width: 84px;
     height: 84px;
 }
-#portfolio .imgport {
+#price .imgport {
     position: relative;
 }
-#portfolio .imgport:hover {
+#price .imgport:hover {
     cursor: pointer;
     opacity: 0.9;
 }
-#portfolio .imgport:hover span {
+#price .imgport:hover span {
     display: block;
 }
 /* Team */
@@ -322,7 +332,7 @@ background: rgba(27, 147, 199, 0.8)
 /* CONTACT */
 
 #contact {
-    background: #1b2124;
+    background: #273035;
     color: #fff;
 }
 
@@ -356,6 +366,31 @@ background: rgba(27, 147, 199, 0.8)
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     color: #fff;
+}
+
+.icon-contact a i {
+    font-size: 3em;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #666;
+}
+.icon-contact-us a i.fa-weibo:hover {
+    color: #d52b2b;
+}
+.icon-contact-us a i.fa-facebook-square:hover {
+    color: #3c599f;
+}
+.icon-contact-us a i.fa-twitter-square:hover {
+    color: #5eaade;
+}
+.icon-contact-us a i.fa-google-plus-square:hover {
+    color: #da4735;
+}
+.icon-contact-us a i.fa-pinterest-square:hover {
+    color: #ca2128;
+}
+.icon-contact-us a i.fa-linkedin:hover {
+    color: #017eb4;
 }
 
 .fluid-wrapper {
@@ -528,7 +563,7 @@ button.close {
  }
 }
 @media (max-width: 767px) {
-    #about h3, #services h3, #portfolio h3, #team h3, #blog h3, #contact h3 {
+    #about h3, #services h3, #price h3, #team h3, #blog h3, #contact h3 {
         font-size: 3em;
    }
    .frm .col-md-6, .frm .col-md-12 {
