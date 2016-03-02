@@ -82,12 +82,12 @@ body {
 }
 /* about */
 
-#home, #about, #services, #prices, #team, #blog, #contact {
+#home, #about, #services, #ourPrice, #team, #blog, #contact {
    padding-top: 60px;
    padding-bottom: 80px;
 }
 
-#fortax h3, #home h3, #about h3, #services h3, #prices h3, #team h3, #blog h3, #contact h3 {
+#fortax h3, #home h3, #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3 {
    font-size: 4em;
    font-family: 'Montserrat', sans-serif;
    text-transform: uppercase;
@@ -200,23 +200,23 @@ body {
 }
 /* price */
 
-#prices {
+#ourPrice {
    background: #273035;
    color: #fff;
 }
-#prices img {
+#ourPrice img {
    width: 100%;
    margin-bottom: 20px;
    height: auto;
 }
-#prices h4 {
+#ourPrice h4 {
    font-size: 1.6em;
    font-weight: bold;
    text-transform: uppercase;
    font-family: 'Montserrat', sans-serif;
    margin-bottom: 0;
 }
-#prices span {
+/*#ourPrice span {
    background: #1b93c7;
    border-radius: 50px;
    padding: 25px 13px;
@@ -231,15 +231,15 @@ body {
    color: #fff;
    width: 84px;
    height: 84px;
-}
-#prices .imgport {
+}*/
+#ourPrice .imgport {
    position: relative;
 }
-#prices .imgport:hover {
+#ourPrice .imgport:hover {
    cursor: pointer;
    opacity: 0.9;
 }
-#prices .imgport:hover span {
+#ourPrice .imgport:hover span {
    display: block;
 }
 
@@ -564,7 +564,7 @@ button.close {
    }
 }
 @media (max-width: 767px) {
-   #about h3, #services h3, #prices h3, #team h3, #blog h3, #contact h3 {
+   #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3 {
       font-size: 3em;
    }
    .frm .col-md-6, .frm .col-md-12 {
