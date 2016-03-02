@@ -681,7 +681,7 @@ button.close {
 }
 
 .pricing-col .pricing-table.featured ul.pricing-items li.item {
-   font-weight: bold;
+   /*font-weight: bold;*/
 }
 
 @media (max-width: 991px) {

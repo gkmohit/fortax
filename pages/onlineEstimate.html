@@ -1,0 +1,96 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>FORTAX | Income Tax Return</title>
+      <link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
+      <!-- Stylesheet -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/main.css">
+      <link rel="stylesheet" href="../css/animate.css">
+      <!-- Font Awesome CSS -->
+      <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <!-- font -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+      <!-- animsition.css -->
+      <link rel="stylesheet" href="../assets/animsition/dist/css/animsition.min.css">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="page">
+         <div class="site-navbar navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="../index.html"><img src="../images/logo102x52.png" alt="Logo"></a>
+               </div>
+               <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="../index.html">Home</a></li>
+                     <li><a href="#services">Services</a></li>
+                  </ul>
+               </div>
+               <!--/.nav-collapse -->
+            </div>
+         </div>
+         
+   <footer>
+      Copyright &copy; 2016 FORTAX All Rights Reserved <br>
+      Created with <i style="color:red" class="fa fa-heart"></i> in Toronto.
+   </footer>
+   </div>
+   <!-- Scroll to top -->
+   <div class="scroll-to-top affix" data-spy="affix" data-offset-top="200"><a href="#page" class="smooth-scroll"><i class="fa fa-arrow-up"></i></a></div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../js/jquery.singlePageNav.js"></script>
+   <script src="../js/main.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <!-- WOW.js -->
+   <script src="../js/wow.min.js"></script>
+   <script>new WOW().init();</script>
+   <!-- animsition.js -->
+   <script src="../assets/animsition/dist/js/animsition.min.js"></script>
+   <script type="text/javascript">
+      $(document).ready(function() {
+     $(".animsition").animsition({
+       inClass: 'fade-in',
+       outClass: 'fade-out',
+       inDuration: 1500,
+       outDuration: 800,
+       linkElement: '.animsition-link',
+       // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+       loading: true,
+       loadingParentElement: 'body', //animsition wrapper element
+       loadingClass: 'animsition-loading',
+       loadingInner: '', // e.g '<img src="loading.svg" />'
+       timeout: false,
+       timeoutCountdown: 5000,
+       onLoadEvent: true,
+       browser: [ 'animation-duration', '-webkit-animation-duration'],
+       // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+       // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+       overlay : false,
+       overlayClass : 'animsition-overlay-slide',
+       overlayParentElement : 'body',
+       transition: function(url){ window.location.href = url; }
+     });
+   });
+   </script>
+   </body>
+   </html>
