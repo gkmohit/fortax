@@ -82,12 +82,12 @@ body {
 }
 /* about */
 
-#home, #about, #services, #ourPrice, #team, #blog, #contact {
+#home, #about, #services, #ourPrice, #team, #blog, #contact, #dataClient {
    padding-top: 60px;
    padding-bottom: 80px;
 }
 
-#fortax h3, #home h3, #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3 {
+#fortax h3, #home h3, #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3, #dataClient h3 {
    font-size: 4em;
    font-family: 'Montserrat', sans-serif;
    text-transform: uppercase;
@@ -156,6 +156,22 @@ body {
 
 .icon-about a i.fa-linkedin:hover {
    color: #017eb4;
+}
+
+
+/* dataClient */
+
+#dataClient {
+   background: #273035;
+   color: #fff;
+}
+
+#dataClient h4 {
+   font-size: 1.6em;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
 }
 
 /* Services */

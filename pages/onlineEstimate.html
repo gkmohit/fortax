@@ -1,108 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>FORTAX | Income Tax Return</title>
-      <link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
-      <!-- Stylesheet -->
-      <link href="../css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="../css/main.css">
-      <link rel="stylesheet" href="../css/animate.css">
-      <!-- Font Awesome CSS -->
-      <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <!-- font -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-      <!-- animsition.css -->
-      <link rel="stylesheet" href="../assets/animsition/dist/css/animsition.min.css">
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body>
-      <div id="page">
-         <div class="site-navbar navbar navbar-fixed-top" role="navigation">
-            <div class="container">
-               <!--
-               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>FORTAX | Income Tax Return</title>
+   <link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
+   <!-- Stylesheet -->
+   <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="../css/main.css">
+   <link rel="stylesheet" href="../css/animate.css">
+   <!-- Font Awesome CSS -->
+   <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!-- font -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <!-- animsition.css -->
+   <link rel="stylesheet" href="../assets/animsition/dist/css/animsition.min.css">
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+
+   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+</head>
+<body>
+   <div id="page">
+      <div class="site-navbar navbar navbar-fixed-top" role="navigation">
+         <div class="container">
+
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="../index.html"><img src="../images/logo102x52.png" alt="Logo"></a>
-               </div>
-               <div class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav navbar-right">
-                     <li><a href="../index.html">Home </a></li>
-                     <li><a href="#services">Services</a></li>
-                  </ul>
-               </div> -->
-               <!--/.nav-collapse -->
+               </button>
+               <a class="navbar-brand" href="../index.html"><img src="../images/logo102x52.png" alt="Logo"></a>
             </div>
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <!-- <li><a href="../index.html">Home </a></li>
+                  <li><a href="#services">Services</a></li> -->
+               </ul>
+            </div>
+            <!--/.nav-collapse -->
          </div>
-         <main id="main" class="site-main">
+      </div>
+      <main id="main" class="site-main">
+         <section id="dataClient">
             <div class="container">
                <div class="row">
                   <form role="form">
-
-                  </form>
-                  <div class="col-lg-5 col-md-push-1">
-
+                     <div class="col-lg-6">
+                        <div class="well well-sm"><strong style="color:#000;"> <i class="fa fa-asterisk"></i> Required Field</strong></div>
+                        <!-- Begining of First Name -->
+                        <div class="form-group">
+                           <label for="InputName">First Name</label>
+                           <div class="input-group">
+                              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="First Name" required>
+                              <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                           </div>
+                        </div>
+                        <!-- End of First Name -->
+                        <!--  -->
+                        <!-- Begining of Middle Name -->
+                        <!--
+                        <div class="form-group">
+                        <label for="InputName">Middle Name</label>
+                        <div class="input-group">
+                        <input type="text" width="100%" class="form-control" name="InputName" id="InputName" placeholder="Middle Name" required>
+                        <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                     </div>
+                  </div> -->
+                  <!-- End of Middle Name -->
+                  <!--  -->
+                  <!-- Begining of Last Name -->
+                  <div class="form-group">
+                     <label for="InputName">Last Name</label>
+                     <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Last Name" required>
+                        <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                     </div>
                   </div>
+                  <!-- End of Last Name -->
+                  <!--  -->
+                  <!-- Begining of Email -->
+                  <div class="form-group">
+                     <label for="InputEmail">Enter Email</label>
+                     <div class="input-group">
+                        <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder="Enter Email" required>
+                        <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                     </div>
+                  </div>
+                  <!-- End of Email -->
+                  <!--  -->
+                  <!-- Begining of Social Insurance Number -->
+                  <div class="form-group">
+                     <label for="InputEmail">Social Insurance Number</label>
+                     <div class="input-group">
+                        <input type="text" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="555 555 555" required>
+                        <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                     </div>
+                  </div>
+                  <!-- End of Social Insurance Number -->
+                  <!--  -->
+                  <!-- Begining of Date of Birth -->
+                  <div class="form-group">
+                     <label for="dobYear">Date of Birth</label>
+                     <div class="form-inline">
+                        <div class="input-group">
+                           <input type="text" name="dobYear" class="form-control" size="4" placeholder="YYYY"/>
+                           <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                        </div>
+                        <div class="input-group">
+                           <input type="text" name="dobMonth" class="form-control" size="5"  placeholder="MMM"/>
+                           <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                        </div>
+                        <div class="input-group">
+                           <input type="text" name="dobDay" class="form-control" size="2" placeholder="DD"/>
+                           <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End of Date of Birth -->
+                  <!--  -->
+                  <!-- Begining of Gender -->
+                  <div class="form-group">
+                     <label for="">Gender</label>
+                     <div class="form-group">
+                        <div class="btn-group" data-toggle="buttons">
+                           <label class="btn btn-default">
+                              <input type="radio" name="gender" value="male" > Male
+                           </label>
+                           <label class="btn btn-default">
+                              <input type="radio" name="gender" value="female" > Female
+                           </label>
+                           <label class="btn btn-default">
+                              <input type="radio" name="gender" value="other" > Other
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End of Gender -->
+                  <!--  -->
+                  <!-- Begining of Status -->
+                  <div class="form-group">
+                     <div class="form-group">
+                        <label for="statuSelection">Relationship Status</label>
+                        <select class="form-control selectpicker" id="statusSelection" name="statuSelection" required>
+                           <option name="single" value="single">Single</option>
+                           <option name="commonLawSpouse" value="cls">Common Law Spouse</option>
+                           <option name="married" value="married">Married</option>
+                           <option name="gender" value="widowed">Widowed</option>
+                           <option name="gender" value="separeted">Separeted</option>
+                           <option name="gender" value="divorced">Divorced</option>
+                        </select>
+
+                     </div>
+                  </div>
+                  <!-- End of Status -->
+                  <div class="form-group">
+                     <label for="InputMessage">Enter Message</label>
+                     <div class="input-group">
+                        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                        <span class="input-group-addon"><i class="fa fa-asterisk"></i></span>
+                     </div>
+                  </div>
+                  <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
                </div>
+            </form>
+            <div class="col-lg-5 col-md-push-1">
+
             </div>
-         </main>
-         <footer>
-            Copyright &copy; 2016 FORTAX All Rights Reserved <br>
-            Created with <i style="color:red" class="fa fa-heart"></i> in Toronto.
-         </footer>
+         </div>
       </div>
-      <!-- Scroll to top -->
-      <div class="scroll-to-top affix" data-spy="affix" data-offset-top="200"><a href="#page" class="smooth-scroll"><i class="fa fa-arrow-up"></i></a></div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <!-- Bootstrap JS -->
-      <script src="../js/bootstrap.min.js"></script>
-      <script src="../js/jquery.singlePageNav.js"></script>
-      <script src="../js/main.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <!-- WOW.js -->
-      <script src="../js/wow.min.js"></script>
-      <script>new WOW().init();</script>
-      <!-- animsition.js -->
-      <script src="../assets/animsition/dist/js/animsition.min.js"></script>
-      <script type="text/javascript">
-         $(document).ready(function() {
-         $(".animsition").animsition({
-          inClass: 'fade-in',
-          outClass: 'fade-out',
-          inDuration: 1500,
-          outDuration: 800,
-          linkElement: '.animsition-link',
-          // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-          loading: true,
-          loadingParentElement: 'body', //animsition wrapper element
-          loadingClass: 'animsition-loading',
-          loadingInner: '', // e.g '<img src="loading.svg" />'
-          timeout: false,
-          timeoutCountdown: 5000,
-          onLoadEvent: true,
-          browser: [ 'animation-duration', '-webkit-animation-duration'],
-          // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-          // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-          overlay : false,
-          overlayClass : 'animsition-overlay-slide',
-          overlayParentElement : 'body',
-          transition: function(url){ window.location.href = url; }
-         });
-         });
-      </script>
-   </body>
+   </section>
+</main>
+<footer>
+   Copyright &copy; 2016 FORTAX All Rights Reserved <br>
+   Created with <i style="color:red" class="fa fa-heart"></i> in Toronto.
+</footer>
+</div>
+<!-- Scroll to top -->
+<div class="scroll-to-top affix" data-spy="affix" data-offset-top="200"><a href="#page" class="smooth-scroll"><i class="fa fa-arrow-up"></i></a></div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.singlePageNav.js"></script>
+<script src="../js/main.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- WOW.js -->
+<script src="../js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<!-- animsition.js -->
+<script src="../assets/animsition/dist/js/animsition.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+   $(".animsition").animsition({
+      inClass: 'fade-in',
+      outClass: 'fade-out',
+      inDuration: 1500,
+      outDuration: 800,
+      linkElement: '.animsition-link',
+      // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+      loading: true,
+      loadingParentElement: 'body', //animsition wrapper element
+      loadingClass: 'animsition-loading',
+      loadingInner: '', // e.g '<img src="loading.svg" />'
+      timeout: false,
+      timeoutCountdown: 5000,
+      onLoadEvent: true,
+      browser: [ 'animation-duration', '-webkit-animation-duration'],
+      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+      overlay : false,
+      overlayClass : 'animsition-overlay-slide',
+      overlayParentElement : 'body',
+      transition: function(url){ window.location.href = url; }
+   });
+});
+</script>
+</body>
 </html>
