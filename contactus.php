@@ -4,7 +4,7 @@ $email = Trim(stripslashes($_POST['email']));
 $message = Trim(stripslashes($_POST['message']));
 
 $to = 'gkmohit@gmail.com';//your email address
-$subject = 'the subject'; //subject email
+$subject = 'Contact Us from FORTAX.ca'; //subject email
 $message = 'FROM: '.$name.' Email: '.$email.' Message: '.$message;
 $headers = 'From: '.$email. "\r\n";
 
