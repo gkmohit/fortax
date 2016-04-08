@@ -82,12 +82,12 @@ body {
 }
 /* about */
 
-#home, #about, #services, #ourPrice, #team, #blog, #contact, #dataClient {
+#home, #about, #services, #ourPriceTax, #team, #blog, #contact, #dataClient , #ourPriceBook {
    padding-top: 60px;
    padding-bottom: 80px;
 }
 
-#fortax h3, #home h3, #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3, #dataClient h3 {
+#fortax h3, #home h3, #about h3, #services h3, #ourPriceTax h3, #team h3, #blog h3, #contact h3, #dataClient h3, #ourPriceBook h3 {
    font-size: 4em;
    font-family: 'Montserrat', sans-serif;
    text-transform: uppercase;
@@ -216,23 +216,41 @@ body {
 }
 /* price */
 
-#ourPrice {
+#ourPriceTax {
    background: #273035;
    color: #fff;
 }
-#ourPrice img {
+#ourPriceTax img {
    width: 100%;
    margin-bottom: 20px;
    height: auto;
 }
-#ourPrice h4 {
+#ourPriceTax h4 {
    font-size: 1.6em;
    font-weight: bold;
    text-transform: uppercase;
    font-family: 'Montserrat', sans-serif;
    margin-bottom: 0;
 }
-/*#ourPrice span {
+
+#ourPriceBook {
+   background: #273035;
+   color: #fff;
+}
+#ourPriceBook img {
+   width: 100%;
+   margin-bottom: 20px;
+   height: auto;
+}
+#ourPriceBook h4 {
+   font-size: 1.6em;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 0;
+}
+
+/*#ourPriceTax span {
 background: #1b93c7;
 border-radius: 50px;
 padding: 25px 13px;
@@ -248,14 +266,25 @@ color: #fff;
 width: 84px;
 height: 84px;
 }*/
-#ourPrice .imgport {
+#ourPriceTax .imgport {
    position: relative;
 }
-#ourPrice .imgport:hover {
+#ourPriceTax .imgport:hover {
    cursor: pointer;
    opacity: 0.9;
 }
-#ourPrice .imgport:hover span {
+#ourPriceTax .imgport:hover span {
+   display: block;
+}
+
+#ourPriceBook .imgport {
+   position: relative;
+}
+#ourPriceBook .imgport:hover {
+   cursor: pointer;
+   opacity: 0.9;
+}
+#ourPriceBook .imgport:hover span {
    display: block;
 }
 
@@ -587,7 +616,7 @@ button.close {
    }
 }
 @media (max-width: 767px) {
-   #about h3, #services h3, #ourPrice h3, #team h3, #blog h3, #contact h3 {
+   #about h3, #services h3, #ourPriceTax h3, #team h3, #blog h3, #contact h3, #ourPriceBook h3 {
       font-size: 3em;
    }
    .frm .col-md-6, .frm .col-md-12 {
