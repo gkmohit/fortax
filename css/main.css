@@ -763,3 +763,17 @@ button.close {
 .intro-img{
    margin: auto;
 }
+
+.primary-hr{
+   height: 4px;
+   border-color: #1b2124;
+   width: 80%;
+}
+
+.title-col{
+   text-align: center;
+}
+
+.title-col h2{
+   font-weight: bold;
+}
