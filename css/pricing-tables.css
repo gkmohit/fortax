@@ -117,7 +117,7 @@
 .plan ul li {
     line-height: 22px;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 1.3em;
     font-weight: 400;
     border-bottom: 1px solid #aaa
 }
@@ -141,8 +141,16 @@
 .plan.recommended .head {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    background: #171717;
+    background: #1b93c7;
 }
 .plan.recommended .btn {
     margin-bottom: 10px;
+}
+
+.price-amount{
+   font-size: 1em;
+}
+
+.symbol{
+   font-size: 1em;
 }
