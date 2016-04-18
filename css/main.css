@@ -1,4 +1,7 @@
-/* DEFAULT 1.2.0 - 2/2014 copyright (c) templatesuper.com | @templatesuper */
+:root {
+  --navBlue : #1b93c7;
+  --darkBackgroubd : #273035;
+}
 
 html {
    overflow-x: hidden;
@@ -15,24 +18,24 @@ body {
    border: 0;
 }
 .site-navbar a {
-   color: #1b93c7;
+   color: var(--navBlue);
    text-transform: uppercase;
    font-family: 'Open Sans', sans-serif;
    font-weight: bold;
 }
 .site-navbar .current {
-   background: #1b93c7;
+   background: var(--navBlue);
    color: #fff;
 }
 .site-navbar li a.current:hover {
-   background: #1b93c7;
+   background: var(--navBlue);
 }
 .site-navbar li a:hover {
-   background: #1b93c7;
+   background: var(--navBlue);
    color: #fff;
 }
 .site-navbar li a:focus {
-   background: #1b93c7;
+   background: var(--navBlue);
 }
 .navbar-brand {
    padding-top: 0;
@@ -162,7 +165,7 @@ body {
 /* dataClient */
 
 #dataClient {
-   background: #273035;
+   background: var(--darkBackgroubd);;
    color: #fff;
 }
 
@@ -177,7 +180,7 @@ body {
 /* Services */
 
 #services {
-   background: #273035;
+   background: var(--darkBackgroubd);;
    color: #fff;
 }
 #services h3 {
@@ -217,7 +220,7 @@ body {
 /* price */
 
 #ourPriceTax {
-   background: #273035;
+   background: var(--darkBackgroubd);;
    color: #fff;
 }
 #ourPriceTax img {
@@ -234,7 +237,7 @@ body {
 }
 
 #ourPriceBook {
-   background: #273035;
+   background: var(--darkBackgroubd);;
    color: #fff;
 }
 #ourPriceBook img {
@@ -250,22 +253,6 @@ body {
    margin-bottom: 0;
 }
 
-/*#ourPriceTax span {
-background: #1b93c7;
-border-radius: 50px;
-padding: 25px 13px;
-position: absolute;
-top: 28%;
-left: 40%;
-display: none;
-font-family: 'Open Sans', sans-serif;
-font-size: 24px;
-text-transform: uppercase;
-font-weight: bold;
-color: #fff;
-width: 84px;
-height: 84px;
-}*/
 #ourPriceTax .imgport {
    position: relative;
 }
@@ -286,6 +273,10 @@ height: 84px;
 }
 #ourPriceBook .imgport:hover span {
    display: block;
+}
+
+.pricing-heading h2{
+   font-size: 2em;
 }
 
 /* Team */
@@ -320,7 +311,7 @@ height: 84px;
 }
 #team ul li {
    display: inline-block;
-   background: #1b93c7;
+   background: var(--navBlue);
    padding: 0 10px;
 }
 #team ul li a {
@@ -328,7 +319,7 @@ height: 84px;
    font-size: 1.8em;
 }
 #team ul li:hover {
-   background: #273035;
+   background: var(--darkBackgroubd);;
 }
 #team .imgteam {
    position: relative;
@@ -372,7 +363,7 @@ height: 84px;
    font-size: 1.1em;
 }
 .singleblog {
-   background: #273035 !important;
+   background: var(--darkBackgroubd); !important;
 }
 
 /* CONTACT */
@@ -481,7 +472,7 @@ textarea {
    font-size: 1.2em;
 }
 .btn-biru {
-   background: #1b93c7;
+   background: var(--navBlue);
    border-radius: 0 !important;
    border: 0 !important;
 }
@@ -736,6 +727,10 @@ button.close {
    /*font-weight: bold;*/
 }
 
+.bookkeeping-price-col .pricing-col{
+   padding-left: 0;
+   padding-right: 0;
+}
 @media (max-width: 991px) {
    .pricing-col .pricing-table.featured {
       margin: 15px auto;
@@ -776,4 +771,9 @@ button.close {
 
 .title-col h2{
    font-weight: bold;
+}
+
+.text-primary{
+   font-weight: bold;
+   color: #1b2124;
 }
