@@ -1,6 +1,8 @@
 :root {
   --navBlue : #1b93c7;
-  --darkBackgroubd : #273035;
+  --darkBackground : #273035;
+  --pricingColBackground : #f4f5f7;
+  --pricingColBackgroundDark : #bdc3c7;
 }
 
 html {
@@ -165,7 +167,7 @@ body {
 /* dataClient */
 
 #dataClient {
-   background: var(--darkBackgroubd);;
+   background: var(--darkBackground);;
    color: #fff;
 }
 
@@ -180,7 +182,7 @@ body {
 /* Services */
 
 #services {
-   background: var(--darkBackgroubd);;
+   background: var(--darkBackground);;
    color: #fff;
 }
 #services h3 {
@@ -220,7 +222,7 @@ body {
 /* price */
 
 #ourPriceTax {
-   background: var(--darkBackgroubd);;
+   background: var(--darkBackground);;
    color: #fff;
 }
 #ourPriceTax img {
@@ -237,7 +239,7 @@ body {
 }
 
 #ourPriceBook {
-   background: var(--darkBackgroubd);;
+   background: var(--darkBackground);;
    color: #fff;
 }
 #ourPriceBook img {
@@ -319,7 +321,7 @@ body {
    font-size: 1.8em;
 }
 #team ul li:hover {
-   background: var(--darkBackgroubd);;
+   background: var(--darkBackground);;
 }
 #team .imgteam {
    position: relative;
@@ -363,7 +365,7 @@ body {
    font-size: 1.1em;
 }
 .singleblog {
-   background: var(--darkBackgroubd); !important;
+   background: var(--darkBackground); !important;
 }
 
 /* CONTACT */
@@ -640,7 +642,7 @@ button.close {
 .pricing-col .pricing-table {
    border: 1px solid #d6dae2;
    margin: 15px 0;
-   background: #f4f5f7;
+   background: var(--pricingColBackground);
    color: #3e444d;
 }
 
@@ -694,7 +696,7 @@ button.close {
 }
 
 .pricing-col .pricing-table .content ul.pricing-items {
-   padding: 55px 0 0;
+   padding: 0;
    margin: 0;
 }
 
@@ -776,4 +778,28 @@ button.close {
 .text-primary{
    font-weight: bold;
    color: #1b2124;
+}
+
+.checklist-col{
+   background-color: var(--pricingColBackground);
+}
+
+.checklist{
+   padding: 15px;
+}
+
+.checklist .item{
+   border: 1px solid black;
+}
+
+.item .fa{
+   padding-right: 5px;
+}
+
+.item-dark{
+   background-color: var(--pricingColBackgroundDark);
+}
+
+.item-dark .fa{
+   padding-right: 5px;
 }
