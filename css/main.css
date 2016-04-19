@@ -20,24 +20,24 @@ body {
    border: 0;
 }
 .site-navbar a {
-   color: var(--navBlue);
+   color: #1b93c7;
    text-transform: uppercase;
    font-family: 'Open Sans', sans-serif;
    font-weight: bold;
 }
 .site-navbar .current {
-   background: var(--navBlue);
+   background: #1b93c7;
    color: #fff;
 }
 .site-navbar li a.current:hover {
-   background: var(--navBlue);
+   background: #1b93c7;
 }
 .site-navbar li a:hover {
-   background: var(--navBlue);
+   background: #1b93c7;
    color: #fff;
 }
 .site-navbar li a:focus {
-   background: var(--navBlue);
+   background: #1b93c7;
 }
 .navbar-brand {
    padding-top: 0;
@@ -167,7 +167,7 @@ body {
 /* dataClient */
 
 #dataClient {
-   background: var(--darkBackground);;
+   background: #273035;;
    color: #fff;
 }
 
@@ -182,7 +182,7 @@ body {
 /* Services */
 
 #services {
-   background: var(--darkBackground);;
+   background: #273035;;
    color: #fff;
 }
 #services h3 {
@@ -222,7 +222,7 @@ body {
 /* price */
 
 #ourPriceTax {
-   background: var(--darkBackground);;
+   background: #273035;;
    color: #fff;
 }
 #ourPriceTax img {
@@ -239,7 +239,7 @@ body {
 }
 
 #ourPriceBook {
-   background: var(--darkBackground);;
+   background: #273035;;
    color: #fff;
 }
 #ourPriceBook img {
@@ -313,7 +313,7 @@ body {
 }
 #team ul li {
    display: inline-block;
-   background: var(--navBlue);
+   background: #1b93c7;
    padding: 0 10px;
 }
 #team ul li a {
@@ -321,7 +321,7 @@ body {
    font-size: 1.8em;
 }
 #team ul li:hover {
-   background: var(--darkBackground);;
+   background: #273035;;
 }
 #team .imgteam {
    position: relative;
@@ -365,7 +365,7 @@ body {
    font-size: 1.1em;
 }
 .singleblog {
-   background: var(--darkBackground); !important;
+   background: #273035; !important;
 }
 
 /* CONTACT */
@@ -474,7 +474,7 @@ textarea {
    font-size: 1.2em;
 }
 .btn-biru {
-   background: var(--navBlue);
+   background: #1b93c7;
    border-radius: 0 !important;
    border: 0 !important;
 }
@@ -642,7 +642,7 @@ button.close {
 .pricing-col .pricing-table {
    border: 1px solid #d6dae2;
    margin: 15px 0;
-   background: var(--pricingColBackground);
+   background: #f4f5f7;
    color: #3e444d;
 }
 
@@ -781,7 +781,7 @@ button.close {
 }
 
 .checklist-col{
-   background-color: var(--pricingColBackground);
+   background-color: #f4f5f7;
 }
 
 .checklist{
@@ -797,7 +797,7 @@ button.close {
 }
 
 .item-dark{
-   background-color: var(--pricingColBackgroundDark);
+   background-color: #bdc3c7;
 }
 
 .item-dark .fa{
