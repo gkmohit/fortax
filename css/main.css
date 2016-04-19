@@ -87,12 +87,12 @@ body {
 }
 /* about */
 
-#home, #about, #services, #ourPriceTax, #team, #blog, #contact, #dataClient , #ourPriceBook {
+#home, #about, #services, #ourPriceTax, #team, #blog, #contact, #dataClient , #ourPriceBook , #ourPriceOther{
    padding-top: 60px;
    padding-bottom: 80px;
 }
 
-#fortax h3, #home h3, #about h3, #services h3, #ourPriceTax h3, #team h3, #blog h3, #contact h3, #dataClient h3, #ourPriceBook h3 {
+#fortax h3, #home h3, #about h3, #services h3, #ourPriceTax h3, #team h3, #blog h3, #contact h3, #dataClient h3, #ourPriceBook h3, #ourPriceOther h3 {
    font-size: 4em;
    font-family: 'Montserrat', sans-serif;
    text-transform: uppercase;
@@ -255,6 +255,26 @@ body {
    margin-bottom: 0;
 }
 
+
+
+#ourPriceOther {
+   background: #273035;;
+   color: #fff;
+}
+#ourPriceOther img {
+   width: 100%;
+   margin-bottom: 20px;
+   height: auto;
+}
+#ourPriceOther h4 {
+   font-size: 1.6em;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 0;
+}
+
+
 #ourPriceTax .imgport {
    position: relative;
 }
@@ -277,6 +297,16 @@ body {
    display: block;
 }
 
+#ourPriceOther .imgport {
+   position: relative;
+}
+#ourPriceOther .imgport:hover {
+   cursor: pointer;
+   opacity: 0.9;
+}
+#ourPriceOther .imgport:hover span {
+   display: block;
+}
 .pricing-heading h2{
    font-size: 2em;
 }
@@ -802,4 +832,8 @@ button.close {
 
 .item-dark .fa{
    padding-right: 5px;
+}
+
+.no-padding-top{
+   padding-top: 0;
 }
